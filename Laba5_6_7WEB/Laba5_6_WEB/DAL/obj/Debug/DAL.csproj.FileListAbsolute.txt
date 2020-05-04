@@ -1,0 +1,14 @@
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\DAL.dll.config
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\DAL.dll
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\DAL.pdb
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\EntityFramework.dll
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\EntityFramework.xml
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\ru\EntityFramework.resources.dll
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\obj\Debug\DAL.dll
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba5_6_WEB\Laba5_6_WEB\DAL\obj\Debug\DAL.pdb

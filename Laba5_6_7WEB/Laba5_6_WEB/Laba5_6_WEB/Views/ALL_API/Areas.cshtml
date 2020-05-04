@@ -1,0 +1,170 @@
+﻿<div id="tableBlock"></div>
+<div id="editBlock">
+    <p><b>Редактирование Area</b></p>
+    <table>
+        <tr><td><input type="hidden" id="editId" /></td><td></td></tr>
+        <tr><td><label>Id: </label></td><td><input type="number" id="editId" /></td></tr>
+        <tr><td><label>Name: </label></td><td><input type="text" id="editName" /></td></tr>
+        <tr><td><label>Type: </label></td><td><input type="text" id="editType" /></td></tr>
+
+    </table>
+    <button id="editArea">Сохранить</button>
+</div>
+<div id="createBlock">
+    <p><b>Добавление Area</b></p>
+    <table>
+        <tr><td><label>Name: </label></td><td><input type="text" id="addName" /></td></tr>
+        <tr><td><label>Type: </label></td><td><input type="text" id="addType" /></td></tr>
+       
+    </table>
+    <button id="addArea">Сохранить</button>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            GetAllAreas();
+
+            $("#editArea").click(function (event) {
+                event.preventDefault();
+                EditArea();
+            });
+
+            $("#addArea").click(function (event) {
+                event.preventDefault();
+                AddArea();
+            });
+
+        });
+        // Получение всех книг по ajax-запросу
+        function GetAllAreas() {
+
+            $("#createBlock").css('display', 'block');
+            $("#editBlock").css('display', 'none');
+            $.ajax({
+                url: '/api/areas',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    WriteResponse(data);
+                },
+                error: function (x, y, z) {
+                    alert(x + '\n' + y + '\n' + z);
+                }
+            });
+        }
+        // Добавление новой книги
+        function AddArea() {
+            // получаем значения для добавляемой книги
+            var area = {
+                Id: $('#addId').val(),
+                Name: $('#addName').val(),
+                Type: $('#addType').val()
+            };
+
+            $.ajax({
+                url: '/api/areas/',
+                type: 'POST',
+                data: JSON.stringify(area),
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    GetAllAreas();
+                },
+                error: function (x, y, z) {
+                    alert(x + '\n' + y + '\n' + z);
+                }
+            });
+        }
+        // Удаление книги
+        function DeleteArea(id) {
+
+            $.ajax({
+                url: '/api/areas/' + id,
+                type: 'DELETE',
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    GetAllAreas();
+                },
+                error: function (x, y, z) {
+                    alert(x + '\n' + y + '\n' + z);
+                }
+            });
+        }
+        // редактирование книги
+        function EditArea() {
+            var id = $('#editId').val()
+            // получаем новые значения для редактируемой книги
+            var area = {
+                Id: $('#editId').val(),
+                Name: $('#editName').val(),
+                Type: $('#editType').val()
+            };
+            $.ajax({
+                url: '/api/areas/' + id,
+                type: 'PUT',
+                data: JSON.stringify(area),
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    GetAllAreas();
+                },
+                error: function (x, y, z) {
+                    alert(x + '\n' + y + '\n' + z);
+                }
+            });
+        }
+        // вывод полученных данных на экран
+        function WriteResponse(areas) {
+            var strResult = "<table><th>ID   </th><th>Name </th><th>Type </th>";
+            $.each(areas, function (index, area) {
+                strResult += "<tr><td>" + area.Id + "   </td><td> " + area.Name + " </td><td> " + area.Type + " </td><td> " + 
+                    "</td><td><a id='editItem' data-item='" + area.Id + "' onclick='EditItem(this);' >Редактировать</a></td>" +
+                    "<td><a id='delItem' data-item='" + area.Id + "' onclick='DeleteItem(this);' >Удалить</a></td></tr>";
+            });
+            strResult += "</table>";
+            $("#tableBlock").html(strResult);
+
+        }
+        // обработчик удаления
+        function DeleteItem(el) {
+            // получаем id удаляемого объекта
+            var id = $(el).attr('data-item');
+            DeleteArea(id);
+        }
+        // обработчик редактирования
+        function EditItem(el) {
+            // получаем id редактируемого объекта
+            var id = $(el).attr('data-item');
+            GetArea(id);
+        }
+        // вывод данных редактируемой книги в поля для редактирования
+        function ShowArea(area) {
+            if (area != null) {
+                $("#createBlock").css('display', 'none');
+                $("#editBlock").css('display', 'block');
+                $("#editId").val(area.Id);
+                $("#editName").val(area.Name);
+                $("#editType").val(area.Type);
+            }
+            else {
+                alert("Area не существует");
+            }
+        }
+        // запрос книги на редактирование
+        function GetArea(id) {
+            $.ajax({
+                url: '/api/areas/' + id,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    ShowArea(data);
+                },
+                error: function (x, y, z) {
+                    alert(x + '\n' + y + '\n' + z);
+                }
+            });
+        }
+    </script>
+    @Scripts.Render("~/bundles/jqueryval")
+}

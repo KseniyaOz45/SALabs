@@ -1,0 +1,11 @@
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\bin\Debug\DAL.exe.config
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\bin\Debug\DAL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\bin\Debug\DAL.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\bin\Debug\BLL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\bin\Debug\BLL.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\bin\Debug\BLL.exe.config
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\obj\Debug\DAL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\DAL\obj\Debug\DAL.pdb

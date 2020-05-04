@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FBDA0EE-4E10-4D7B-A75F-B0A1AB4629B4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command.cs" />
+    <Compile Include="Command_commands\Add_Elem.cs" />
+    <Compile Include="Command_commands\Delete_Elem.cs" />
+    <Compile Include="Container.cs" />
+    <Compile Include="Receiver.cs" />
+    <Compile Include="Handlers_For_Search\Handler_Bin.cs" />
+    <Compile Include="Handlers_For_Search\Handler_Inter.cs" />
+    <Compile Include="Handlers_For_Search\Handler_Lin.cs" />
+    <Compile Include="Handlers_For_Sorts\Handler_Quick.cs" />
+    <Compile Include="Handlers_For_Sorts\Handler_Shell.cs" />
+    <Compile Include="Handlers_For_Sorts\Handler_Choise.cs" />
+    <Compile Include="Handlers_For_Sorts\Handler_Insert.cs" />
+    <Compile Include="Handler_For_Search.cs" />
+    <Compile Include="Handler_For_Sorts.cs" />
+    <Compile Include="Handlers_For_Sorts\Handler_Bubble.cs" />
+    <Compile Include="intIterator.cs" />
+    <Compile Include="Iterator.cs" />
+    <Compile Include="Objects.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{e8e3079d-4bed-46dd-a428-f8821ee8a9bf}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

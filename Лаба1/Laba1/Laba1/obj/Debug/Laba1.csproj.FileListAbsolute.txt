@@ -1,0 +1,17 @@
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\Laba1.exe.config
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\Laba1.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\Laba1.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\PL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\PL.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\PL.exe.config
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\obj\Debug\Laba1.csproj.CopyComplete
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\obj\Debug\Laba1.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\obj\Debug\Laba1.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\DAL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\BLL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\DAL.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\DAL.exe.config
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\BLL.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\Laba1\bin\Debug\BLL.exe.config

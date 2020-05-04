@@ -1,0 +1,7 @@
+﻿1. Add zone
+2. Change zone
+3. Del zone
+4. Print all zones
+5. Back
+
+Ваш выбор: 

@@ -1,0 +1,7 @@
+﻿1. Add atraction
+2. Change atraction
+3. Del atraction
+4. Print all atractions
+5. Back
+
+Ваш выбор: 

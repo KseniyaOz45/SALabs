@@ -1,0 +1,7 @@
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\bin\Debug\BLL.exe.config
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\bin\Debug\BLL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\bin\Debug\BLL.pdb
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\obj\Debug\BLL.exe
+F:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Лаба1\Laba1\BLL\obj\Debug\BLL.pdb

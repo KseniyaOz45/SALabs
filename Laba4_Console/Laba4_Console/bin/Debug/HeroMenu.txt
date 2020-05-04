@@ -1,0 +1,7 @@
+﻿1. Add hero
+2. Change hero
+3. Del hero
+4. Print all heroes
+5. Back
+
+Ваш выбор: 

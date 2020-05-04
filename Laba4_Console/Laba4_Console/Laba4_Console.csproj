@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22A8B0F2-B8F7-4EB0-B096-189F7836D629}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Laba4_Console</RootNamespace>
+    <AssemblyName>Laba4_Console</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Work_with_atractions.cs" />
+    <Compile Include="BLL\Work_with_heroes.cs" />
+    <Compile Include="BLL\Work_with_orders.cs" />
+    <Compile Include="BLL\Work_with_zones.cs" />
+    <Compile Include="Migrations\202003041541214_InitialCreate.cs" />
+    <Compile Include="Migrations\202003041541214_InitialCreate.Designer.cs">
+      <DependentUpon>202003041541214_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071020430_MigrationDB.cs" />
+    <Compile Include="Migrations\202003071020430_MigrationDB.Designer.cs">
+      <DependentUpon>202003071020430_MigrationDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071022334_MigrationDB1.cs" />
+    <Compile Include="Migrations\202003071022334_MigrationDB1.Designer.cs">
+      <DependentUpon>202003071022334_MigrationDB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071110358_MigrationDB2.cs" />
+    <Compile Include="Migrations\202003071110358_MigrationDB2.Designer.cs">
+      <DependentUpon>202003071110358_MigrationDB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071114457_MigrationDB3.cs" />
+    <Compile Include="Migrations\202003071114457_MigrationDB3.Designer.cs">
+      <DependentUpon>202003071114457_MigrationDB3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071121214_MigrationDB4.cs" />
+    <Compile Include="Migrations\202003071121214_MigrationDB4.Designer.cs">
+      <DependentUpon>202003071121214_MigrationDB4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071127507_MigrationDB5.cs" />
+    <Compile Include="Migrations\202003071127507_MigrationDB5.Designer.cs">
+      <DependentUpon>202003071127507_MigrationDB5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071134305_MigrationDB6.cs" />
+    <Compile Include="Migrations\202003071134305_MigrationDB6.Designer.cs">
+      <DependentUpon>202003071134305_MigrationDB6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071138598_MigrationDB7.cs" />
+    <Compile Include="Migrations\202003071138598_MigrationDB7.Designer.cs">
+      <DependentUpon>202003071138598_MigrationDB7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071140346_MigrationDB8.cs" />
+    <Compile Include="Migrations\202003071140346_MigrationDB8.Designer.cs">
+      <DependentUpon>202003071140346_MigrationDB8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003071708444_MigrateDB.cs" />
+    <Compile Include="Migrations\202003071708444_MigrateDB.Designer.cs">
+      <DependentUpon>202003071708444_MigrateDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003081403540_MigrateDB1.cs" />
+    <Compile Include="Migrations\202003081403540_MigrateDB1.Designer.cs">
+      <DependentUpon>202003081403540_MigrateDB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="MyModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{e02970d9-8dfd-4936-bfa8-fd0ba3515d6a}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202003041541214_InitialCreate.resx">
+      <DependentUpon>202003041541214_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071020430_MigrationDB.resx">
+      <DependentUpon>202003071020430_MigrationDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071022334_MigrationDB1.resx">
+      <DependentUpon>202003071022334_MigrationDB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071110358_MigrationDB2.resx">
+      <DependentUpon>202003071110358_MigrationDB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071114457_MigrationDB3.resx">
+      <DependentUpon>202003071114457_MigrationDB3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071121214_MigrationDB4.resx">
+      <DependentUpon>202003071121214_MigrationDB4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071127507_MigrationDB5.resx">
+      <DependentUpon>202003071127507_MigrationDB5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071134305_MigrationDB6.resx">
+      <DependentUpon>202003071134305_MigrationDB6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071138598_MigrationDB7.resx">
+      <DependentUpon>202003071138598_MigrationDB7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071140346_MigrationDB8.resx">
+      <DependentUpon>202003071140346_MigrationDB8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003071708444_MigrateDB.resx">
+      <DependentUpon>202003071708444_MigrateDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003081403540_MigrateDB1.resx">
+      <DependentUpon>202003081403540_MigrateDB1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

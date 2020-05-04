@@ -1,0 +1,14 @@
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\bin\Debug\DAL.exe.config
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\bin\Debug\DAL.exe
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\bin\Debug\DAL.pdb
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.exe
+G:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.pdb
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\bin\Debug\DAL.exe.config
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\bin\Debug\DAL.exe
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\bin\Debug\DAL.pdb
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.exe
+E:\НАУ\1_Курс_2_половина\Архитектура ПЗ\Лабы\Laba4_Console\DAL\obj\Debug\DAL.pdb

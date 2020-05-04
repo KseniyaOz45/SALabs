@@ -1,0 +1,7 @@
+﻿1. Add order
+2. Change order
+3. Del order
+4. Print all orders
+5. Back
+
+Ваш выбор: 
